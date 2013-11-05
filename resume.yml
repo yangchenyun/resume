@@ -1,61 +1,92 @@
-## Technical Skills
-
-## Work Experience
-
 info:
   name:
-    first:
-    last:
-  phone: (313) - 867-5309 # not mandatory
-  email: example@example.com
-  homepage: http://example.com/ # not mandatory
-  github: http://example.com/ # not mandatory
+    first: Chenyun
+    last: Yang
+  phone: (+86) 186-1016-5182
+  email: yangchenyun@gmail.com
+  homepage: http://yangchenyun.com/
+  github: http://github.com/yangchenyun
   address:
-    street: 123 Fake Street
-    city: City
-    region: Region # not mandatory
-    postal_code: 12345 # not mandatory
-    country: Country # not mandatory
+    street:
+    city:
+    region:
+    postal_code:
+    country:
 
-education: # this section is not mandatory
-    - name: Indiana University
-      city: Bloomington
-      country: USA # not mandatory
+education:
+    - name: Zhejiang University
+      city: Hangzhou
+      country: China
       dates:
-        start: 2001-01-01
-        end: 2010-01-01 # not mandatory
-      major: Dual Major, Economics and English
-      gpa: 4.0 GPA # not mandatory
+        start: 2006-09-01
+        end: 2011-06-30
+      content: B.Arts in Economics 3.81 / 4
+
+    - name: Keio University
+      city: Tokyo
+      country: Japan
+      dates:
+        start: 2009-09-01
+        end: 2010-08-31
+      content: Scholarship from JASSO
+      hide: true
 
 jobs:
-  - title:
-    city: Bloomington
-    country: USA # not mandatory
-    company:
+  - title: Co-founder & CTO
+    city: Shanghai
+    country: China
+    company: Zenhacks
+    link: http://zenhacks.org
     department:
     dates:
-      start:
-      end:
+      start: 2012-06-01
+      end: current
     accomplishments:
-      - one
-      - two
+      - Founded the online flower shop [Huali](http://hua.li). Built the working system **within 2 weeks**. Keep a **137% monthly growth rate** of revenue.
+      - Developed the whole system through TDD and strong OOP patterns. Implemented a loosely-coupled architecture to enable various components connected through a messaging system backed by Redis. LOC: **14K**. Code to Test Ratio: **1:1.2**. -Sass, Rails, Rspec, PostgreSQL, Redis-
+      - Automated the deployment process on multiple remote servers for Rails/PHP/nodeJS applications. Facilitated new team members to deploy code at their first day. [src](http://github.com/zenhacks/capistrano-zen)
+      - Recruiting, Project Management?
+      - SA Roles.
+
+  - title: Early Employee & Frontend Lead
+    city: Shanghai
+    country: China
+    company: Rajax Technology Co., Ltd.
+    link: http://ele.me
+    department:
+    dates:
+      start: 2011-06-01
+      end: 2012-01-31
+    accomplishments:
+      - Redesigned and implemented the frontend UI, increase the order conversion rate by 13% and reduce 12% bounce rate. -javaScript, jQuery, Less-
+      - Optimized the frontend assets serving. Cut the bandwidth cost by 47% by implementing a Etags-based browser caching strategy and increate page load speed by 23% by inlining small images into HTML. -PHP-
 
 projects:
-  - summary:
-    technology:
+  - title: Technical Writing
+    link:
     dates:
-      start:
-      end:
+      start: 2011-03-01
+      end: current
     accomplishments:
-      - one
-      - two
+      - Author at [Sitepoint.com].(http://www.sitepoint.com/author/yangchenyun/)
+      - Write blogs about self-learning and personal management.
 
-honors:
-  - content:
-    date:
+  - title: Cofounder of TEDxFiveStarSquare
+    link: http://ted.yangchenyun.com/
+    dates:
+      start: 2011-03-01
+      end: 2011-05-30
+    accomplishments:
+      - Design the stage, graphics and website of the very early TEDx event in China.
 
 skills:
-  - category:
-    content:
-  - category:
-    content:
+  - category: languages
+    content: Proficiency in Ruby, javaScript / Experience with PHP, Python, C, Java, Scheme, Processing, Rust
+  - category: frameworks
+    content: Rails, nodeJS, Sinatra, Wordpress, jQuery, AngularJS
+  - category: backend
+    content: PostgreSQL, MySQL, MongoDB, Redis
+
+hobbies:
+  - Mountain Climbing. Peaked Mt.Haba(5396m), 2012.
+  - Longboarding.
