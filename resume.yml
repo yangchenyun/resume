@@ -1,0 +1,61 @@
+## Technical Skills
+
+## Work Experience
+
+info:
+  name:
+    first:
+    last:
+  phone: (313) - 867-5309 # not mandatory
+  email: example@example.com
+  homepage: http://example.com/ # not mandatory
+  github: http://example.com/ # not mandatory
+  address:
+    street: 123 Fake Street
+    city: City
+    region: Region # not mandatory
+    postal_code: 12345 # not mandatory
+    country: Country # not mandatory
+
+education: # this section is not mandatory
+    - name: Indiana University
+      city: Bloomington
+      country: USA # not mandatory
+      dates:
+        start: 2001-01-01
+        end: 2010-01-01 # not mandatory
+      major: Dual Major, Economics and English
+      gpa: 4.0 GPA # not mandatory
+
+jobs:
+  - title:
+    city: Bloomington
+    country: USA # not mandatory
+    company:
+    department:
+    dates:
+      start:
+      end:
+    accomplishments:
+      - one
+      - two
+
+projects:
+  - summary:
+    technology:
+    dates:
+      start:
+      end:
+    accomplishments:
+      - one
+      - two
+
+honors:
+  - content:
+    date:
+
+skills:
+  - category:
+    content:
+  - category:
+    content:
