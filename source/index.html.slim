@@ -12,7 +12,9 @@ ul.section
     li
       div
         p.location =[edu.city, edu.country].join(', ')
-        h3 =edu.name
+        h3
+          =edu.name
+          span.intro =edu.intro
       div
         p.date =period(edu.date.start, edu.date.end)
         -edu.contents.each do |content|
