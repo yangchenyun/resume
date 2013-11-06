@@ -17,6 +17,8 @@ ul.section
         p.date =period(job.date.start, job.date.end)
         h4
           =link_to(job.company.name, job.company.link)
+          span.intro =job.company.intro
+
       ul.items
         - filter_hide(job.accomplishments).each do |acc|
           li = markdown(acc)
@@ -38,7 +40,9 @@ ul.section
     li
       div
         p.date =period(prj.date.start, prj.date.end)
-        h3 =prj.title
+        h3
+          =prj.title
+          span.intro =prj.intro
       ul.items
         - filter_hide(prj.accomplishments).each do |acc|
           li = markdown(acc)
