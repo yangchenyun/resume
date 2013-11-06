@@ -5,31 +5,51 @@ ruby:
 
 header
   h1 = info.name
-  p = [info.phone, info.email, info.github].join(' • ')
+  p = [info.phone, mail_to(info.email), link_to(info.github, info.github)].join(' • ')
   hr
 
 h2 Work Experience
-- jobs.each do |job|
-  li
-    div
-      h3 =job.title
-      p.location =[job.city, job.country].join(', ')
-    div
-      h4 =md_link(job.company, job.link)
-      p.date =period(job.date.start, job.date.end)
-    ul.accomplishes
-      - filter_hide(job.accomplishments).each do |acc|
-        li = markdown(acc)
+ul.section
+  - jobs.each do |job|
+    li
+      div
+        p.location =[job.city, job.country].join(', ')
+        h3 =job.title
+      div
+        p.date =period(job.date.start, job.date.end)
+        h4 =md_link(job.company, job.link)
+      ul.items
+        - filter_hide(job.accomplishments).each do |acc|
+          li = markdown(acc)
 
 h2 Education
-- educations.each do |edu|
-  li
-    p
-      span =edu.name
-      span =[edu.city, edu.country].join(', ')
-      span =period(edu.date.start, edu.date.end)
-    p =edu.content
-h2 Project Experience
-h2 Core Technical Skills
-h2 Hobbies
+ul.section
+  - educations.each do |edu|
+    li
+      div
+        p.location =[edu.city, edu.country].join(', ')
+        h3 =edu.name
+      div
+        p.date =period(edu.date.start, edu.date.end)
+        p =edu.content
 
+h2 Project Experience
+ul.section
+  - projects.each do |prj|
+    li
+      div
+        p.date =period(prj.date.start, prj.date.end)
+        h3 =prj.title
+      ul.items
+        - filter_hide(prj.accomplishments).each do |acc|
+          li = markdown(acc)
+
+h2 Core Technical Skills
+ul.section
+  - skills.each do |skill|
+    li ="#{skill.category.capitalize}: #{skill.content}"
+
+h2 Hobbies
+ul.section
+  - hobbies.each do |hobby|
+    li =hobby
