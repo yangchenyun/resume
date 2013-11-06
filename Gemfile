@@ -3,6 +3,7 @@
 source 'http://ruby.taobao.org'
 
 gem "middleman", "~>3.1.6"
+gem "middleman-deploy"
 gem "maruku"
 
 # Live-reloading plugin
