@@ -1,1 +1,3 @@
-p = markdown(data.resume.jobs[0].accomplishments[0].item)
+ul
+  - filter_hide(data.resume.jobs[0].accomplishments).each do |acc|
+    li = markdown(acc)

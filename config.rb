@@ -45,6 +45,10 @@ helpers do
   def markdown(str)
     Maruku.new(str).to_html
   end
+
+  def filter_hide(ary)
+    ary.reject { |str| str["hide"] }
+  end
 end
 
 set :css_dir, 'stylesheets'
