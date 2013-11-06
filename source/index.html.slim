@@ -1,3 +1,35 @@
-ul
-  - filter_hide(data.resume.jobs[0].accomplishments).each do |acc|
-    li = markdown(acc)
+ruby:
+  def method_missing(sym)
+    data.resume.send(sym) || super
+  end
+
+header
+  h1 = info.name
+  p = [info.phone, info.email, info.github].join(' • ')
+  hr
+
+h2 Work Experience
+- jobs.each do |job|
+  li
+    div
+      h3 =job.title
+      p.location =[job.city, job.country].join(', ')
+    div
+      h4 =md_link(job.company, job.link)
+      p.date =period(job.date.start, job.date.end)
+    ul.accomplishes
+      - filter_hide(job.accomplishments).each do |acc|
+        li = markdown(acc)
+
+h2 Education
+- educations.each do |edu|
+  li
+    p
+      span =edu.name
+      span =[edu.city, edu.country].join(', ')
+      span =period(edu.date.start, edu.date.end)
+    p =edu.content
+h2 Project Experience
+h2 Core Technical Skills
+h2 Hobbies
+

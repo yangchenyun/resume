@@ -46,8 +46,23 @@ helpers do
     Maruku.new(str).to_html
   end
 
+  def md_link(anchor, link)
+    markdown "[#{anchor}](#{link})"
+  end
+
   def filter_hide(ary)
     ary.reject { |str| str["hide"] }
+  end
+
+  def period(s, e = nil)
+    [s, e].reject { s.nil? }.map do |elem|
+      begin
+        elem = Date.parse(elem) unless Date === elem
+        "<time datetime='#{elem}'>#{elem.strftime("%b %Y")}</time>"
+      rescue ArgumentError # elem is 'present'
+        "<time datetime='#{DateTime.now}}'>Present</time>"
+      end
+    end.join(' - ')
   end
 end
 
