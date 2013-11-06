@@ -1,7 +1,5 @@
 info:
-  name:
-    first: Chenyun
-    last: Yang
+  name: Chenyun Yang
   phone: (+86) 186-1016-5182
   email: yangchenyun@gmail.com
   homepage: http://yangchenyun.com/
@@ -42,11 +40,11 @@ jobs:
       start: 2012-06-01
       end: current
     accomplishments:
-      - Founded the online flower shop [Huali](http://hua.li). Built the working system **within 2 weeks**. Keep a **137% monthly growth rate** of revenue.
-      - Developed the whole system through TDD and strong OOP patterns. Implemented a loosely-coupled architecture to enable various components connected through a messaging system backed by Redis. LOC: **14K**. Code to Test Ratio: **1:1.2**. -Sass, Rails, Rspec, PostgreSQL, Redis-
-      - Automated the deployment process on multiple remote servers for Rails/PHP/nodeJS applications. Facilitated new team members to deploy code at their first day. [src](http://github.com/zenhacks/capistrano-zen)
-      - Recruiting, Project Management?
-      - SA Roles.
+      - item: Founded the online flower shop [Huali](http://hua.li). Built the working system **within 2 weeks**. Keep a **137% monthly growth rate** of revenue.
+      - item: Developed the whole system through TDD and strong OOP patterns. Implemented a loosely-coupled architecture to enable various components connected through a messaging system backed by Redis. LOC is **14K**. Code to Test Ratio **1:1.2**. -Sass, Rails, Rspec, PostgreSQL, Redis-
+      - item: Automated the deployment process on multiple remote servers for Rails/PHP/nodeJS applications. Facilitated new team members to deploy code at their first day. [src](http://github.com/zenhacks/capistrano-zen)
+      - item: Recruiting, Project Management?
+      - item: SA Roles.
 
   - title: Early Employee & Frontend Lead
     city: Shanghai
