@@ -1,8 +1,3 @@
-ruby:
-  def method_missing(sym)
-    data.resume.send(sym) || super
-  end
-
 header
   h1 = info.name
   p = [info.phone, mail_to(info.email), link_to(info.github, info.github)].join(' • ')

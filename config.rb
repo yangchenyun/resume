@@ -64,6 +64,10 @@ helpers do
       end
     end.join(' - ')
   end
+
+  def method_missing(sym)
+    data.resume.send(sym) || super
+  end
 end
 
 set :css_dir, 'stylesheets'
