@@ -41,11 +41,11 @@ require 'maruku'
 # activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def markdown(str)
+    Maruku.new(str).to_html
+  end
+end
 
 set :css_dir, 'stylesheets'
 
