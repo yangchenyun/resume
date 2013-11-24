@@ -58,7 +58,7 @@ jobs:
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
       - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**"
-      - "Designed the backend with a message queueing architecture, enabling business requirements to be met by developing single responsibility components. Kept the code base maintainable and extensible while the complexity grows in the system."
+      - "Designed the backend with a message queueing architecture, enabling business requirements to be met by developing single responsibility components. Kept the code base maintainable and extensible while the complexity grows in the system"
       - "Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
       - "Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
       - "[hide] some information about recruiting, project management?"
@@ -75,9 +75,9 @@ jobs:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - "Early Employee of the biggest China online food ordering platform"
+      - "Early Employee of the biggest online food ordering platform in China"
       - "Rebuilt the UI which led to a 13% rise in conversion and 12% drop in bouncing rate"
-      - "Optimized the assets serving strategy. Cut the bandwidth by 27% through Etags-based browser caching and reduce page load time by 31% with multiple preprocessing strategies"
+      - "Optimized the assets serving strategy. Cut the bandwidth by 27% through Etags-based browser caching and reduced page load time by 31% with multiple preprocessing strategies"
 
 projects:
   - title: Doorman
@@ -88,7 +88,6 @@ projects:
     accomplishments:
       - "[RESTful API](https://github.com/conan007ai/doorman) for entry/exit events of devices within an intranet"
       - "Led the development and completed the protoype **within 6 hours** to win a hackthon"
-
     suggestion: emphasis on fast-prototyping, hours, iterations
 
   - title: TEDxFSS
