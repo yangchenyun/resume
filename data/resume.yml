@@ -53,7 +53,7 @@ jobs:
       link: http://hua.li
       intro: Startup
     date:
-      start: 2012-06-01
+      start: 2012-08-01
       end: present
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
