@@ -59,7 +59,7 @@ jobs:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - "Rebuilt the UX flow and increased the conversion rate by 13% and cut the bouncing rate by 12%."
+      - "Rebuilt the UX flow and increased conversion rate by 13% and cut bouncing rate by 12%."
       - "Optimized the assets serving strategy by implementing preprocessing and caching strategy. Cut the bandwidth by 27% and reduced page load time by 31%."
 
 projects:
