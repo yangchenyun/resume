@@ -1,6 +1,6 @@
 info:
   name: Chenyun Yang
-  phone: (+86) 186-1016-5182
+  phone: (+1) 650-713-6231
   email: yangchenyun@gmail.com
   homepage: //yangchenyun.com
   github: //github.com/yangchenyun
@@ -11,6 +11,97 @@ info:
     postal_code:
     country:
 
+jobs:
+  - title: Senior Software Engineer
+    city: San Francisco
+    country: CA
+    company:
+      name: Google / YouTube
+      link: youtube.com
+    date:
+      start: 2014-10-20
+      end: present
+    accomplishments:
+      - "Designed, prototyped and launched an internal product to search and browse UI components with its documentation and auto-generated API doc **at every versions within Google's [2B LOC CVCS](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)**. The work includes the creation of a distributed & concurrent pipeline which parses, builds and tests UI components for new snapshot **in real time**."
+      - "Created the infrastructure and SDK to develop, debug, test, build and compile web projects at YouTube. The work **provided an unified infrastructure across ~20 teams and ~100 engineers**, including [YouTube Main Site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube Unplugged](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) etc."
+      - "Authored and launched a generic HTML linter which enforces code styles and good practices at company and project level. It is **sanitizing ~7000 commits/month, capturing **>1,000 errors/day**."
+
+      - "Designed and implemented Python frontend for [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun)."
+      - "Implemented source map support for [Closure Stylesheet Compiler](https://github.com/google/closure-stylesheets/commits/master?author=yangchenyun)."
+
+  - title: Co-founder & CTO
+    city: Shanghai
+    country: China
+    company:
+      name: Huali, Ltd.
+      link: http://hua.li
+      intro: Startup
+    date:
+      start: 2014-02-01
+      end: present
+    suggestion: emphasis on reasonable code base size and TDD
+    accomplishments:
+      - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**."
+      - "Implemented the customer facing store frontend with Ruby/Rails."
+      - "Designed and built decentralized task queue to manage and process orders and support various operation tasks."
+      - "[hide] Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
+      - "[hide] Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
+      - "[hide] some information about recruiting, project management?"
+      - "[hide] facilitating roles, such as Bug tracker, gitlab maintainance"
+
+  - title: Early Employee & Frontend Lead
+    city: Shanghai
+    country: China
+    company:
+      name: Ele.me
+      link: https://www.crunchbase.com/organization/ele-me
+      intro: Biggest food ordering platform
+    date:
+      start: 2011-06-01
+      end: 2012-01-31
+    accomplishments:
+      - "Rebuilt the UX flow and increased the conversion rate by 13% and cut bouncing rate by 12%."
+      - "Optimized the assets serving strategy by implementing preprocessing and caching strategy. Cut the bandwidth by 27% and reduced page load time by 31%."
+
+projects:
+  - title: Language Evolution Visualization 
+    link: http://yangchenyun.com/history_of_languages/
+    date:
+      start: 2014-02-01
+      end:
+    accomplishments:
+      - "Weekend project using d3.js while studying the influence between programming languages."
+
+  - title: Chrome Extension for Anki
+    date:
+      start: 2016-12-01
+      end:
+    accomplishments:
+
+      - "Chrome extension created to build vocabulary cards for [Anki](ankiweb.net) from [Google dictionary entry](https://www.google.com/#newwindow=1&q=define+ocean), using [Polymer](polymer-project.org), [Gulp](http://gulpjs.com/), [Babel](https://babeljs.io/)."
+
+  - title: Doorman
+    link: https://github.com/conan007ai/doorman
+    hide: true
+    date:
+      start: 2013-04-01
+      end:
+    accomplishments:
+      - "[RESTful API](https://github.com/conan007ai/doorman) for entry/exit events of devices within an intranet"
+      - "Led the development and completed the protoype **within 6 hours** to win a hackthon"
+    suggestion: emphasis on fast-prototyping, hours, iterations
+
+  - title: TEDxFSS
+    link: http://ted.yangchenyun.com/
+    hide: true
+    date:
+      start: 2011-03-01
+      end:
+    accomplishments:
+      - "Cofounder of the **biggest China TEDx Event** in 2010."
+      - "Designed the stage, logo, poster and coded the website for the non-profit conference."
+    suggestion: non-profit, social awareness,
+
 educations:
   - name: Zhejiang University
     city: Hangzhou
@@ -20,7 +111,7 @@ educations:
       end: 2011-06-30
     contents:
       - "B.A. in Economics - GPA: 3.69/4.0"
-      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) Stanford online course CS145 with **full score**"
+      - "[hide] [Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) Stanford online course CS145 with **full score**"
       - "[hide] **One year overseas** study at Keio University in Tokyo, Japan"
 
   - name: Stanford University (Online Courses)
@@ -33,7 +124,6 @@ educations:
     contents:
       - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) course CS145 (Introduction to Database) with **full score**"
 
-
   - name: Keio University
     city: Tokyo
     country: Japan
@@ -44,73 +134,20 @@ educations:
     contents:
       - "**Only exchange student** accomplished a two-year research program. Scholarship from JASSO, selected out of 3000 candidates"
 
-jobs:
-  - title: Co-founder & CTO
-    city: Shanghai
-    country: China
-    company:
-      name: Huali, Ltd.
-      link: http://hua.li
-      intro: Startup
-    date:
-      start: 2012-08-01
-      end: present
-    suggestion: emphasis on reasonable code base size and TDD
-    accomplishments:
-      - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**"
-      - "Designed the backend with a message queueing architecture, enabling business requirements to be met by developing single responsibility components. Kept the code base maintainable and extensible while the complexity grows in the system"
-      - "Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
-      - "Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
-      - "[hide] some information about recruiting, project management?"
-      - "[hide] facilitating roles, such as Bug tracker, gitlab maintainance"
-
-  - title: Frontend Lead
-    city: Shanghai
-    country: China
-    company:
-      name: Rajax Co.,Ltd.
-      link: http://ele.me
-      intro: Biggest food ordering platform
-    date:
-      start: 2011-06-01
-      end: 2012-01-31
-    accomplishments:
-      - "Early Employee of the biggest online food ordering platform in China"
-      - "Rebuilt the UI which led to a 13% rise in conversion and 12% drop in bouncing rate"
-      - "Optimized the assets serving strategy. Cut the bandwidth by 27% through Etags-based browser caching and reduced page load time by 31% with multiple preprocessing strategies"
-
-projects:
-  - title: Doorman
-    link: https://github.com/conan007ai/doorman
-    date:
-      start: 2013-04-01
-      end:
-    accomplishments:
-      - "[RESTful API](https://github.com/conan007ai/doorman) for entry/exit events of devices within an intranet"
-      - "Led the development and completed the protoype **within 6 hours** to win a hackthon"
-    suggestion: emphasis on fast-prototyping, hours, iterations
-
-  - title: TEDxFSS
-    link: http://ted.yangchenyun.com/
-    date:
-      start: 2011-03-01
-      end:
-    accomplishments:
-      - "Cofounder of the **biggest China TEDx Event** in 2010"
-      - "Designed the stage, logo, poster and coded the website for the non-profit conference"
-    suggestion: non-profit, social awareness,
-
 skills:
-  - category: languages
-    content: "Ruby/JavaScript; basic PHP/Python/Scheme/C/Java"
-  - category: frameworks
-    content: Rails, Node.js, Sinatra, Wordpress, jQuery
+  - category: lang
+    content: "ES5/ES6/TypeScript(frontend), Python/Ruby/PHP(backend), Bash/C/Go/Java(system), Scheme(research)"
+  - category: platforms
+    content: Browser / nodeJS / LAMP
   - category: database
-    content: PostgreSQL, MySQL, MongoDB, Redis
+    content: PostgreSQL, MySQL, Redis, BigTable
   - category: Operating System
+    hide: true
     content: MacOS, Ubuntu, Debian
   - category: Technical Writing
+    hide: true
     content: "Author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/) / Running [personal blog](http://www.yangchenyun.com) since 2010"
 
 activities:
+  - Snowboard.
   - Mountain Climbing. Peaked Mt.Haba(17,703ft) in 2012
