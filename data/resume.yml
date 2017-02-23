@@ -22,8 +22,8 @@ jobs:
       start: 2014-10-20
       end: present
     accomplishments:
-      - "Designed, prototyped and launched an internal product to search and browse UI components with its documentation and auto-generated API doc **at every versions within Google's [2B LOC CVCS](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)**. The work includes the creation of a distributed & concurrent pipeline which parses, builds and tests UI components for new snapshot **in real time**."
-      - "Created the infrastructure and SDK to develop, debug, test, build and compile web projects at YouTube. The work **provided an unified infrastructure across ~20 teams and ~100 engineers**, including [YouTube Main Site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube Unplugged](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) etc."
+      - "Designed, prototyped and launched an internal product to search and browse UI components with its documentation and auto-generated API doc **at every version within Google's [2B LOC CVCS](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)**. The work includes the creation of a distributed & concurrent pipeline which parses, builds and tests UI components for new commits **in real time**."
+      - "Created the infrastructure and SDK to develop, debug, test, build and compile web projects at YouTube. The work **provided a unified infrastructure across ~20 teams and ~100 engineers**, including [YouTube Main Site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube Unplugged](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) etc."
       - "Authored and launched HTML linter service, which enforces code styles and good practices at company and project level, **sanitizes ~7000 commits/month, captures >1,000 errors/day**."
 
       - "Designed and implemented Python frontend for [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun)."
@@ -59,7 +59,7 @@ jobs:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - "Rebuilt the UX flow and increased the conversion rate by 13% and cut bouncing rate by 12%."
+      - "Rebuilt the UX flow and increased the conversion rate by 13% and cut the bouncing rate by 12%."
       - "Optimized the assets serving strategy by implementing preprocessing and caching strategy. Cut the bandwidth by 27% and reduced page load time by 31%."
 
 projects:
@@ -69,7 +69,7 @@ projects:
       start: 2014-02-01
       end:
     accomplishments:
-      - "Weekend project using d3.js while studying the influence between programming languages."
+      - "A weekend project using d3.js while studying the influence between programming languages."
 
   - title: Chrome Extension for Anki
     hide: true
