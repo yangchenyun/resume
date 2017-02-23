@@ -24,7 +24,7 @@ jobs:
     accomplishments:
       - "Designed, prototyped and launched an internal product to search and browse UI components with its documentation and auto-generated API doc **at every versions within Google's [2B LOC CVCS](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)**. The work includes the creation of a distributed & concurrent pipeline which parses, builds and tests UI components for new snapshot **in real time**."
       - "Created the infrastructure and SDK to develop, debug, test, build and compile web projects at YouTube. The work **provided an unified infrastructure across ~20 teams and ~100 engineers**, including [YouTube Main Site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube Unplugged](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) etc."
-      - "Authored and launched a generic HTML linter which enforces code styles and good practices at company and project level. It is **sanitizing ~7000 commits/month, capturing **>1,000 errors/day**."
+      - "Authored and launched HTML linter service, which enforces code styles and good practices at company and project level, **sanitizes ~7000 commits/month, captures >1,000 errors/day**."
 
       - "Designed and implemented Python frontend for [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun)."
       - "Implemented source map support for [Closure Stylesheet Compiler](https://github.com/google/closure-stylesheets/commits/master?author=yangchenyun)."
@@ -42,8 +42,7 @@ jobs:
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
       - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**."
-      - "Implemented the customer facing store frontend with Ruby/Rails."
-      - "Designed and built decentralized task queue to manage and process orders and support various operation tasks."
+      - "Designed and built decentralized task queue to manage and process orders and support various operation tasks. Implemented the customer facing store frontend with Ruby/Rails."
       - "[hide] Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
       - "[hide] Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
       - "[hide] some information about recruiting, project management?"
@@ -73,12 +72,13 @@ projects:
       - "Weekend project using d3.js while studying the influence between programming languages."
 
   - title: Chrome Extension for Anki
+    hide: true
     date:
       start: 2016-12-01
       end:
     accomplishments:
 
-      - "Chrome extension created to build vocabulary cards for [Anki](ankiweb.net) from [Google dictionary entry](https://www.google.com/#newwindow=1&q=define+ocean), using [Polymer](polymer-project.org), [Gulp](http://gulpjs.com/), [Babel](https://babeljs.io/)."
+      - "Build [Anki](ankiweb.net) cards by parsing [Google dictionary](https://www.google.com/#newwindow=1&q=define+ocean), using [Polymer](polymer-project.org), [Gulp](http://gulpjs.com/), [Babel](https://babeljs.io/)."
 
   - title: Doorman
     link: https://github.com/conan007ai/doorman
@@ -136,7 +136,7 @@ educations:
 
 skills:
   - category: lang
-    content: "ES5/ES6/TypeScript(frontend), Python/Ruby/PHP(backend), Bash/C/Go/Java(system), Scheme(research)"
+    content: "ES5/ES6/TypeScript, Python/Ruby/PHP, Bash/C/Go/Java, Scheme"
   - category: platforms
     content: Browser / nodeJS / LAMP
   - category: database
@@ -149,5 +149,4 @@ skills:
     content: "Author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/) / Running [personal blog](http://www.yangchenyun.com) since 2010"
 
 activities:
-  - Snowboard.
-  - Mountain Climbing. Peaked Mt.Haba(17,703ft) in 2012
+  - Snowboard / Mountain Climbing.
