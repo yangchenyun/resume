@@ -26,7 +26,7 @@ jobs:
       - "Created the infrastructure and SDK to develop, debug, test, build and compile web projects at YouTube. The work **provided a unified infrastructure across ~20 teams and ~100 engineers**, including [YouTube Main Site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube Unplugged](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) etc."
       - "Authored and launched HTML linter service, which enforces code styles and good practices at company and project level, **sanitizes ~7000 commits/month, captures >1,000 errors/day**."
 
-      - "Designed and implemented Python frontend for [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun)."
+      - "Designed and implemented Python backend for [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun)."
       - "Implemented source map support for [Closure Stylesheet Compiler](https://github.com/google/closure-stylesheets/commits/master?author=yangchenyun)."
 
   - title: Co-founder & CTO
