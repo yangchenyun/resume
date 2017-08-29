@@ -37,8 +37,8 @@ jobs:
       link: http://hua.li
       intro: Startup
     date:
-      start: 2014-02-01
-      end: present
+      start: 2012-08-01
+      end: 2014-03-01
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
       - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**."
