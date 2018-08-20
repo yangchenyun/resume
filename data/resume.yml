@@ -12,6 +12,19 @@ info:
     country:
 
 jobs:
+  - title: Software Engineer
+    city: San Jose
+    country: CA
+    company:
+      name: Fetch Robotics
+      link: fetchrobotics.com/
+    date:
+      start: 2018-02-05
+      end: present
+    accomplishments:
+      - "Lead the team to define, design and build scalable back-end services including large fleet management, data platform infrastructure and network infrastructure to connect robots with IoT devices within the warehouse."
+      - "Wearing multiple hats to build and grow a successful team: recruiting, product & project management etc."
+
   - title: Senior Software Engineer
     city: San Francisco
     country: CA
@@ -20,7 +33,7 @@ jobs:
       link: youtube.com
     date:
       start: 2014-10-20
-      end: present
+      end: 2018-02-02
     accomplishments:
       - "Designed, prototyped and launched an internal product to search and browse UI components with its documentation and auto-generated API doc **at every version within Google's [2B LOC CVCS](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)**. The work includes the creation of a distributed & concurrent pipeline which parses, builds and tests UI components for new commits **in real time**."
       - "Created the infrastructure and SDK to develop, debug, test, build and compile web projects at YouTube. The work **provided a unified infrastructure across ~20 teams and ~100 engineers**, including [YouTube Main Site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube Unplugged](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) etc."
@@ -63,7 +76,8 @@ jobs:
       - "Optimized the assets serving strategy by implementing preprocessing and caching strategy. Cut the bandwidth by 27% and reduced page load time by 31%."
 
 projects:
-  - title: Language Evolution Visualization 
+  - title: Language Evolution Visualization
+    hide: true
     link: http://yangchenyun.com/history_of_languages/
     date:
       start: 2014-02-01
