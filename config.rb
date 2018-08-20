@@ -57,6 +57,10 @@ helpers do
     end
   end
 
+  def is_show_content(ary)
+    filter_hide(ary).length > 0
+  end
+
   def period(s, e = nil)
     [s, e].reject { |ele| ele.nil? }.map do |elem|
       begin
