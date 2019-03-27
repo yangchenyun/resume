@@ -52,14 +52,14 @@ div.sections
         -filter_hide(edu.contents).each do |content|
           p =markdown(content)
 
-h2 Core Skills
+h2 Skills
 hr
 ul.sections
   - filter_hide(skills).each do |skill|
     li =markdown "#{skill.category.capitalize} : #{skill.content}"
 
-h2 Activities
-hr
-ul.sections
-  - filter_hide(activities).each do |hobby|
-    li =hobby
+/ h2 Activities
+/ hr
+/ ul.sections
+/   - filter_hide(activities).each do |hobby|
+/     li =hobby

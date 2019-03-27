@@ -12,7 +12,7 @@ info:
     country:
 
 jobs:
-  - title: Software Engineer
+  - title: Staff Software Engineer / Tech Lead
     city: San Jose
     country: CA
     company:
@@ -22,8 +22,9 @@ jobs:
       start: 2018-02-05
       end: present
     accomplishments:
-      - "Lead the team to define, design and build scalable back-end services including large fleet management, data platform infrastructure and network infrastructure to connect robots with IoT devices within the warehouse."
-      - "Wearing multiple hats to build and grow a successful team: recruiting, product & project management etc."
+      - "Tech Lead for core backend team, responsible for critical business data flows, API endpoints and storage. Projects include large fleet management, robot coordination, IoT platform and data infrastructure."
+      - "Define and improve engineering procedures including recruitment, design review, CI/CD and release to scale out the human factors in engineering team's productivity."
+      - "Recruit, build and develop a team of senior engineers."
 
   - title: Senior Software Engineer
     city: San Francisco
@@ -40,7 +41,7 @@ jobs:
       - "Authored and launched HTML linter service, which enforces code styles and good practices at company and project level, **sanitizes ~7000 commits/month, captures >1,000 errors/day**."
 
       - "Designed and implemented Python backend for [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun)."
-      - "Implemented source map support for [Closure Stylesheet Compiler](https://github.com/google/closure-stylesheets/commits/master?author=yangchenyun)."
+      - "[hide] Implemented source map support for [Closure Stylesheet Compiler](https://github.com/google/closure-stylesheets/commits/master?author=yangchenyun)."
 
   - title: Co-founder & CTO
     city: Shanghai
@@ -55,7 +56,8 @@ jobs:
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
       - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**."
-      - "Designed and built decentralized task queue to manage and process orders and support various operation tasks. Implemented the customer facing store frontend with Ruby/Rails."
+      - "Designed and built message queue based in-house ERP to support various operation tasks. "
+      - "Led UI/UX team to implement the customer facing store frontend with Ruby/Rails."
       - "[hide] Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
       - "[hide] Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
       - "[hide] some information about recruiting, project management?"
@@ -72,8 +74,8 @@ jobs:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - "Rebuilt the UX flow and increased conversion rate by 13% and cut bouncing rate by 12%."
-      - "Optimized the assets serving strategy by implementing preprocessing and caching strategy. Cut the bandwidth by 27% and reduced page load time by 31%."
+      - "Rebuilt the UI/UX flow and increased conversion rate by 13% and cut bouncing rate by 12%."
+      - "Optimized the assets serving and cut bandwidth by 27% and reduced page load time by 31%."
 
 projects:
   - title: Language Evolution Visualization
@@ -124,7 +126,7 @@ educations:
       start: 2006-09-01
       end: 2011-06-30
     contents:
-      - "B.A. in Economics - GPA: 3.69/4.0"
+      - "B.S. in Economics - GPA: 3.69/4.0"
       - "[hide] [Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) Stanford online course CS145 with **full score**"
       - "[hide] **One year overseas** study at Keio University in Tokyo, Japan"
 
@@ -150,11 +152,12 @@ educations:
 
 skills:
   - category: lang
-    content: "ES5/ES6/TypeScript, Python/Ruby/PHP, Bash/C/Go/Java, Scheme"
+    content: "Go/C, ES5/ES6/TypeScript, Python/Ruby/PHP/Perl, Scheme/Erlang"
   - category: platforms
+    hide: true
     content: Browser / nodeJS / LAMP
   - category: database
-    content: PostgreSQL, MySQL, Redis, BigTable
+    content: "OLTP: PostgreSQL, MySQL, BigTable; OLAP: Cassandra, Elastic Search"
   - category: Operating System
     hide: true
     content: MacOS, Ubuntu, Debian
