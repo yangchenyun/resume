@@ -6,7 +6,7 @@ My personal HTML and PDF resume builder with [Middleman](http://middlemanapp.com
 
     bundle install
     bundle exec middleman server
-    bundle exec middleman deploy
+    bundle exec middleman build && bundle exec middleman deploy
 
 ## Features:
  * Following [The Google Resume](http://www.thegoogleresume.com/index.html) structures and principles.
