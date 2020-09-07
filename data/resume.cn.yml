@@ -1,0 +1,168 @@
+info:
+  name: 杨晨昀 Chenyun Yang
+  phone: (+1) 650-713-6231
+  email: yangchenyun@gmail.com
+  homepage: //yangchenyun.com
+  github: //github.com/yangchenyun
+  address:
+    street:
+    city:
+    region:
+    postal_code:
+    country:
+
+jobs:
+  - title: 高级工程师经理
+    city: 圣何塞
+    country: 加州
+    company:
+      name: Fetch Robotics
+      link: //fetchrobotics.com/
+      intro: 为工厂和仓库提供端到端基于需求的，可扩展的机器人自动化解决方案。
+    date:
+      start: 2018-02-05
+      end: present
+    accomplishments:
+      - "协调产品，运营，销售工程，售后工程等部门技术需求并规划软件后台技术发展战略。设计并实施业务核心组件包括机器人调度系统，机器人管理系统，仓库地图系统，以及 API认证授权系统。"
+      - "招聘和管理高级工程师、资深工程师为主的后端团队，设计并执行开发流程。"
+      - "奠定服务稳定性的基础工作，达到99.9%的运行时间。 实施基于Prometheus/Grafana的监控系统，基于Jaegar的追踪系统，并和第三方服务整合实施预警和日志采集系统。"
+      - "制定数据基建战略, 奠定数据仓储基础工作，引入Snowflake作为仓储组件，设计并实施基于Serverless ETL数据分析系统, 设计并实施和安装机器人采集组件。"
+      - "根据业务需要, 引入了Golang作为主要开发语言解决扩展性问题, 引入gRPC/Protobuf解决API接口设计问题，引入MQTT协议解决通信，引入NATs来支持Micro Service架构."
+
+  - title: 资深工程专家
+    city: 旧金山
+    country: 加州
+    company:
+      name: Google / YouTube
+      link: //youtube.com
+    date:
+      start: 2014-10-20
+      end: 2018-02-02
+    accomplishments:
+      - "设计和开发共用库和组件来服务基于浏览器的通用产品实现。统一了20个工程组，包括 [YouTube](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube TV](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) 等产品实施."
+      - "设计，实施和发布UI组件浏览器，提高设计和工程组的协作速度和不同组件复用性。支持浏览和搜索基于每个代码版本的UI组件。开发了包括分布式的编译系统和数据处理管道，来处理所有工程师的代码提交。"
+      - "设计并实施 [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun) 的Python后端以及SourceMap实现。"
+
+  - title: 联合创始人 & CTO
+    city: 上海
+    country: 中国
+    company:
+      name: Huali, Ltd.
+      link: //hua.li
+    date:
+      start: 2012-08-01
+      end: 2014-03-01
+    suggestion: emphasis on reasonable code base size and TDD
+    accomplishments:
+      - "技术合伙人联合创办鲜花电商[花里花店](http://hua.li)。 开发商铺前端，产品发布浏览，支付系统，以及运营订单系统。业务达到350万销售额，每季度增长310%。"
+      - "[hide] Designed and built message queue based in-house ERP to support various operation tasks. "
+      - "[hide] Led UI/UX team to implement the customer facing store frontend with Ruby/Rails."
+      - "[hide] Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
+      - "[hide] Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
+      - "[hide] some information about recruiting, project management?"
+      - "[hide] facilitating roles, such as Bug tracker, gitlab maintainance"
+
+  - title: 早期员工，前端负责人
+    city: 上海
+    country: 中国
+    company:
+      name: 饿了么
+      link: //www.crunchbase.com/organization/ele-me
+    date:
+      start: 2011-06-01
+      end: 2012-01-31
+    accomplishments:
+      - "设计，实施第一个餐厅订单管理系统, 实现和客户订单无缝整合。"
+      - "重构了前端UI/UX用户流程，实现13%转化率增长。"
+      - "[hide] Optimized the assets serving and cut bandwidth by 27% and reduced page load time by 31%."
+
+projects:
+  - title: Language Evolution Visualization
+    hide: true
+    link: http://yangchenyun.com/history_of_languages/
+    date:
+      start: 2014-02-01
+      end:
+    accomplishments:
+      - "A weekend project using d3.js while studying the influence between programming languages."
+
+  - title: Chrome Extension for Anki
+    hide: true
+    date:
+      start: 2016-12-01
+      end:
+    accomplishments:
+
+      - "Build [Anki](ankiweb.net) cards by parsing [Google dictionary](https://www.google.com/#newwindow=1&q=define+ocean), using [Polymer](polymer-project.org), [Gulp](http://gulpjs.com/), [Babel](https://babeljs.io/)."
+
+  - title: Doorman
+    link: https://github.com/conan007ai/doorman
+    hide: true
+    date:
+      start: 2013-04-01
+      end:
+    accomplishments:
+      - "[RESTful API](https://github.com/conan007ai/doorman) for entry/exit events of devices within an intranet"
+      - "Led the development and completed the protoype **within 6 hours** to win a hackthon"
+    suggestion: emphasis on fast-prototyping, hours, iterations
+
+  - title: TEDxFSS
+    link:
+    hide: true
+    date:
+      start: 2011-03-01
+      end:
+    accomplishments:
+      - "Cofounder of the **biggest China TEDx Event** in 2010."
+      - "Designed the stage, logo, poster and coded the website for the non-profit conference."
+    suggestion: non-profit, social awareness,
+
+educations:
+  - name: 浙江大学
+    city: 杭州
+    country: 中国
+    date:
+      start: 2006-09-01
+      end: 2011-06-30
+    contents:
+      - "经济学专业 - GPA: 3.69/4.0"
+      - "[hide] [Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) Stanford online course CS145 with **full score**"
+      - "[hide] **One year overseas** study at Keio University in Tokyo, Japan"
+
+  - name: Stanford University (Online Courses)
+    city: Stanford
+    country: CA
+    date:
+      start: 2013-01-01
+      end: 2013-03-30
+    hide: true
+    contents:
+      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) course CS145 (Introduction to Database) with **full score**"
+
+  - name: Keio University
+    city: Tokyo
+    country: Japan
+    date:
+      start: 2009-09-01
+      end: 2010-08-31
+    hide: true
+    contents:
+      - "**Only exchange student** accomplished a two-year research program. Scholarship from JASSO, selected out of 3000 candidates"
+
+skills:
+  - category: 编程语言
+    content: "Go/C, ES5/ES6/TypeScript, Python/Ruby/PHP/Perl"
+  - category: platforms
+    hide: true
+    content: Browser / nodeJS / LAMP
+  - category: 数据存储
+    content: "OLTP: PostgreSQL, MySQL, BigTable; OLAP: Cassandra, Elastic Search"
+  - category: Operating System
+    hide: true
+    content: MacOS, Ubuntu, Debian
+  - category: Technical Writing
+    hide: true
+    content: "Author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/) / Running [personal blog](http://www.yangchenyun.com) since 2010"
+
+activities:
+  - Snowboard / Mountain Climbing.
