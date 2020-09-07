@@ -3,22 +3,21 @@ title: Curriculum Vitae of Chenyun Yang
 ---
 header
   h1 = info.name
-  p = [info.phone, mail_to(info.email), link_to('github.com/yangchenyun', info.github)].join(' • ')
+  p = [info.phone, mail_to(info.email)].join(' • ')
   div#download =link_to('Download PDF', './resume.pdf')
 
-h2 Work Experience
+h2 工作经历
 hr
 div.sections
   - filter_hide(jobs).each do |job|
     div.record
       div
         p.location =[job.city, job.country].join(', ')
-        h3 =job.title
+        h3 =link_to(job.company.name, job.company.link)
+        span.intro =job.company.intro
       div
         p.date =period(job.date.start, job.date.end)
-        h4
-          = link_to(job.company.name, job.company.link)
-          / span.intro =job.company.intro
+        h4 =job.title
 
       ul.items
         - filter_hide(job.accomplishments).each do |acc|
@@ -37,7 +36,7 @@ div.sections
           - filter_hide(prj.accomplishments).each do |acc|
             li = markdown(acc)
 
-h2 Education
+h2 教育经历
 hr
 div.sections
   - filter_hide(educations).each do |edu|
@@ -52,7 +51,7 @@ div.sections
         -filter_hide(edu.contents).each do |content|
           p =markdown(content)
 
-h2 Skills
+h2 技术技能
 hr
 ul.sections
   - filter_hide(skills).each do |skill|
