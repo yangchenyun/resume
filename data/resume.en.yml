@@ -22,13 +22,14 @@ jobs:
       start: 2018-02-05
       end: present
     accomplishments:
-      - "Recruited and built a team of senior and staff engineers from scratch; designed and built critical software for the business solution including robot orchestration system, large fleet management system, map & annotation service, authentication service. The company grew its customer base from 3 to 60+ during my tenure."
-      - "Worked closely with VP Product, VP Support, VP Sales and Field Engineers to develop the technical strategy and ensure alignment across multiple departments."
-      - "Laid the groundwork for serviceability and achieved 99.9% uptime through introducing telemetry (Prometheus/Grafana), tracing (Jaeger), and integration with 3rd party services (PageDuty, SumoLogic, Sentry)."
-      - "Defined the strategy and built data infrastructure to support growing business needs. Consolidated data pipeline from data collection, ETLs to serving infrastructure."
-      - "Established procedures to support an engineering culture of commitment and experimentation across multiple teams."
-      - "Introduced, drove, and owned major technical efforts such as the introduction of Golang, gRPC/Protobuf, MQTT, telemetry."
-
+      - "Worked with various business stakeholders, including VP Product, VP Support, Sales Engineers, and developed in-cloud technical road map aligned with business plans."
+      - "Owned the product's critical software systems, including robot orchestration system, fleet management system, map/annotation service, and auth service. Implemented micro-service architecture. The company grew its customer base from 3 to 60+ during my tenure."
+      - "Laid the groundwork of serviceability and achieved 99.9% uptime during business expansion with the same team capacity via building telemetry and tracing systems, leveraging 3rd party log aggregation and health alerts services."
+      - "Discovered the business needs and defined the roadmap to build data infrastructure. Launched ingestion pipeline, ETLs, and consolidated various data storages with Snowflake."
+      - "Built test framework and robot simulator to automate e2e test cases. Designed with performance in mind to integrate with CI/CD for daily commits."
+      - "Recruited and built a team of senior and staff engineers from scratch, established a culture that values autonomy, responsibility, collaboration, and creativity."
+      - "Introduced and drove the adoption of the following technology: Golang, gRPC/Protobuf, MQTT, Jaegar, Prometheus."
+      - "[hide] Established procedures to support an engineering culture of commitment and experimentation across multiple teams."
       - "[hide] including design review, CI/CD and release to scale out the human factors in engineering team's productivity."
       - "[hide] Tech Lead for core backend team, responsible for critical business data flows, API endpoints and storage. Projects include large fleet management, robot coordination, IoT platform and data infrastructure."
 
@@ -36,20 +37,18 @@ jobs:
     city: San Francisco
     country: CA
     company:
-      name: Google / YouTube
+      name: YouTube / Client Infra Team
       link: youtube.com
     date:
       start: 2014-10-20
       end: 2018-02-02
     accomplishments:
-      - "Created the infrastructure and SDK to develop, debug, test, build and compile web projects at YouTube. The work **provided a unified infrastructure across ~20 teams and ~100 engineers**, including [YouTube Main Site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [YouTube Gaming](https://gaming.youtube.com), [YouTube Unplugged](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/) etc."
-      - "Launched an internal product to search and browse UI components with documentation **at every version within Google's [2B LOC CVCS](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)**. The work includes a distributed concurrent pipeline which parses, builds and tests UI components for new commits **in real-time**."
-      - "Launched HTML linter service, which **captures >1k errors/day "
+      - "The team owns the framework and SDK to develop, test, and build web projects at YouTube. I built performant components, designed the build pipeline, introduced Typescript for **~20 teams and ~100 engineers**, including [the main site](https://thenextweb.com/google/2016/05/02/youtube-getting-googles-material-design-heres-enable-now/), [gaming](https://gaming.youtube.com), [TV](http://www.salon.com/2017/01/11/cord-cutter-alert-youtubes-unplugged-could-be-right-around-the-corner/), etc."
+      - "Launched an internal YouTube UI components browser to search and browse components **within Google's [2B LOC CVCS](https://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/)**. The work includes a distributed concurrent pipeline that parses, builds, and tests UI components for every commits **in real-time**."
+      - "Launched HTML linter service used by all teams at Google, which **captures >1k errors/day**."
       - "[hide] and sanitizes ~7k commits/month**."
-
       - "Designed and implemented Python backend for [Closure Template Compiler](https://github.com/google/closure-templates/commits/master?author=yangchenyun)."
       - "[hide] Implemented source map support for [Closure Stylesheet Compiler](https://github.com/google/closure-stylesheets/commits/master?author=yangchenyun)."
-
   - title: Co-founder & CTO
     city: Shanghai
     country: China
@@ -62,7 +61,7 @@ jobs:
       end: 2014-03-01
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
-      - "**Cofounded** [Huali](http://hua.li). Developed both the sales front and in-house ERP system to support business operation. Achieved **$500,000+ sales in the first year** and an average **seasonal growth of 317%**."
+      - "Operated a fullstack team to develop the store front and in-house ERP system to support operation. Achieved **$500,000+ sales in the 1st year** with **317% seasonal growth**."
       - "[hide] Designed and built message queue based in-house ERP to support various operation tasks. "
       - "[hide] Led UI/UX team to implement the customer facing store frontend with Ruby/Rails."
       - "[hide] Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
@@ -81,8 +80,8 @@ jobs:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - "Designed, built and owned the first version of restaurant management system."
-      - "Rebuilt the UI/UX flow for customer facing site and increased conversion rate by 13%."
+      - "Designed and implemented the portal for restaurants to manage orders and customers."
+      - "Rebuilt the UX flow on customer portal and increased user conversion rate by 13%."
       - "[hide] Optimized the assets serving and cut bandwidth by 27% and reduced page load time by 31%."
 
 projects:
@@ -160,7 +159,7 @@ educations:
 
 skills:
   - category: lang
-    content: "Go/C, ES5/ES6/TypeScript, Python/Ruby/PHP/Perl"
+    content: "Go, JavaScript/TypeScript, Python/Ruby/PHP/Perl"
   - category: platforms
     hide: true
     content: Browser / nodeJS / LAMP
